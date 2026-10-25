@@ -112,6 +112,9 @@ catbus xianyu item get <id> -e app           # app 端尚未实现：NOT_IMPLEME
 | `taobao` | `tb` |
 | `jd` | `jingdong` |
 | `x` | `twitter` |
+| `baijia` | `baijiahao`, `bjh` |
+| `toutiao` | `jinritoutiao` |
+| `zhihu` | `zh` |
 | `12306` | — |
 
 目录名、配置键、输出里的 `platform` 字段一律使用**规范 id**。只有平台有别名；resource 和 action 没有别名。
@@ -179,6 +182,9 @@ catbus xianyu item get <id> -e app           # app 端尚未实现：NOT_IMPLEME
 | xianyu | 闲置商品 |
 | taobao | 商品 |
 | jd | 商品 SKU |
+| baijia | 文章 |
+| toutiao | 作品 |
+| zhihu | 内容 |
 
 各动作的说明：
 - `item list`：当前账号自己发布的内容，带审核状态，数据来自创作者中心。
